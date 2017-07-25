@@ -1,13 +1,5 @@
-/*
- * {
 
-  border: 1px solid black;
-
-  met les bordures pour verifier tous les paragraphes
-}
-*/
-h1
-{
+h1 {
   text-transform: uppercase;
  font-size: 250%;
  color: #EAEFF0;
@@ -26,8 +18,7 @@ h1
 
 
 
-h2
-{
+h2 {
   color: #EAEFF0;
   border-style : double;
   text-decoration: underline; /* sert a souligner les h2 et h1 */
@@ -46,8 +37,7 @@ h2
 
 
 
-.wrapper
-{
+.wrapper {
     margin: 0 auto;
     max-width: 2000px;
     min-width: 300px;
@@ -56,8 +46,7 @@ h2
 }
 
 
-.adresse div
-{
+.adresse div {
   display: inline-block;
   vertical-align: middle;
 
@@ -65,8 +54,7 @@ h2
 
 
 
-.coordonnes
-{
+.coordonnes {
   font-family: arial , sans-serif;
   font-size: 20px;
   padding: 20px 20px 20px 20px;
@@ -78,8 +66,7 @@ h2
 
 
 
-.coordonnes img, .adresse img
-{
+.coordonnes img, .adresse img {
   height: 20px;
   max-width: 100%;
   display: inline-block; /* pour l'image s'aligne sur le texte */
@@ -88,8 +75,7 @@ h2
 
 
 
-.policedeveloppeur
-{
+.policedeveloppeur {
   font-family: "Apple Chancery", cursive;
   font-size: 50px;
   color: black;
@@ -98,24 +84,21 @@ h2
 
 
 
-p
-{
+p {
   line-height: 10px;
   text-align: right;
 }
 
 
 
-header
-{
+header {
   text-align: center;
   font-size: 2em;
-}
+}/* css photo */
 
-/* css photo */
 
-.image
-{
+
+.image {
   float: left;
   left: 20px;
   width: 210 px;
@@ -125,29 +108,7 @@ header
   border-radius: 20%;
   /*opacity: 1;
    pour l'opacité de l'image*/
-}
-
-
-.zoom1 {
- width: 400px;
- height: 300px;
- background-image: url(machaon1.jpg);
- background-repeat: no-repeat;
- margin: 0 auto;
-}
-.zoom1 p, .zoom1 a {
-height: 300px;
-display: block;
-margin:0
-}
-.zoom1 a:hover {
-background-image: url(machaon1.jpg);
-background-position: 0px -300px;
-background-repeat:no-repeat;
-cursor:help;
-}
-
-/* fin css photo */
+}/* fin css photo */
 
 
 .textCentral
@@ -158,8 +119,7 @@ cursor:help;
 }
 
 
-a:hover span, a:focus span /* hover quand tu passe le souris dessus et focus permet de cibler avec le clavier */
-{
+a:hover span, a:focus span /* hover quand tu passe le souris dessus et focus permet de cibler avec le clavier */{
   transform: scale(0.9) rotate(0);
   opacity: 0.9;
   box-shadow: 10px 10px 10px black;
@@ -167,8 +127,7 @@ a:hover span, a:focus span /* hover quand tu passe le souris dessus et focus per
 
 
 
-a span
-{
+a span {
   cursor: pointer; /* On change le curseur par défaut par un autre curseur. */
   color: black;
   background: #069;
@@ -188,23 +147,20 @@ a span
 
 
 
-strong
-{
+strong {
     font-weight: bolder;
 }
 
 
 
 
-body
-{
+body {
     background-color: #EAEFF0;
 }
 
 
 
-ul
-{
+ul {
      margin: 10px;
      text-align: left;
 
@@ -213,8 +169,7 @@ ul
 
 
 
-ul li ul li /* les li qui sont dans les ul, des li, des ul */
-{
+ul li ul li /* les li qui sont dans les ul, des li, des ul */ {
       font-weight: 400;
       list-style-type: square; /* carré a gauche des phrases */
       padding-right: 15px;
