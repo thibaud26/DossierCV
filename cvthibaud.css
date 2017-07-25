@@ -2,8 +2,8 @@
  * {
 
   border: 1px solid black;
-  
-  met les bordures pour verifier tous les paragraphes 
+
+  met les bordures pour verifier tous les paragraphes
 }
 */
 h1
@@ -26,13 +26,13 @@ h1
 
 
 
-h2 
+h2
 {
   color: #EAEFF0;
   border-style : double;
   text-decoration: underline; /* sert a souligner les h2 et h1 */
   font-style: italic;
-  font-weight: bold; 
+  font-weight: bold;
 	height:auto;
 	width: auto;
 	background:#069;
@@ -46,7 +46,7 @@ h2
 
 
 
-.wrapper 
+.wrapper
 {
     margin: 0 auto;
     max-width: 2000px;
@@ -60,12 +60,12 @@ h2
 {
   display: inline-block;
   vertical-align: middle;
- 
+
 }
 
 
 
-.coordonnes 
+.coordonnes
 {
   font-family: arial , sans-serif;
   font-size: 20px;
@@ -74,7 +74,7 @@ h2
   text-align: right;
   line-height: 30px;
   margin: 0 auto;
-} 
+}
 
 
 
@@ -98,21 +98,21 @@ h2
 
 
 
-p 
-{ 
+p
+{
   line-height: 10px;
   text-align: right;
 }
 
 
 
-header 
-{ 
+header
+{
   text-align: center;
   font-size: 2em;
 }
 
-
+/* css photo */
 
 .image
 {
@@ -128,8 +128,29 @@ header
 }
 
 
+.zoom1 {
+ width: 400px;
+ height: 300px;
+ background-image: url(machaon1.jpg);
+ background-repeat: no-repeat;
+ margin: 0 auto;
+}
+.zoom1 p, .zoom1 a {
+height: 300px;
+display: block;
+margin:0
+}
+.zoom1 a:hover {
+background-image: url(machaon1.jpg);
+background-position: 0px -300px;
+background-repeat:no-repeat;
+cursor:help;
+}
 
-.textCentral 
+/* fin css photo */
+
+
+.textCentral
 {
     margin: 0 auto;
     text-align: center;
@@ -164,26 +185,26 @@ a span
   transition: all .25s 0.10s;
   opacity: 0;
 }
-  
-  
-   
-strong 
+
+
+
+strong
 {
     font-weight: bolder;
 }
-  
-  
-  
-  
-body 
+
+
+
+
+body
 {
     background-color: #EAEFF0;
 }
 
 
 
-ul 
-{    
+ul
+{
      margin: 10px;
      text-align: left;
 

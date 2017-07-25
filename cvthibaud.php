@@ -1,39 +1,43 @@
-<!doctype html>      
-<html> 
+<!doctype html>
+<html>
 
   <head>
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
       <title> curriculum vitae
       </title>
   </head>
-  
-<body> 
+
+<body>
   <header>
     <aside>
-      <img src="images/thibaudfacebook.png"
-      class="image" alt="image">
+      <div class="zoomPhoto">
+        <p>
+            <img src="images/thibaudfacebook.png"
+              class="image" alt="image">
+        </p>
+      </div>
     </aside>
-    
+
     <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">developpeur web</span></h1>
-    
-      
+
+
   </header>
    <article class="wrapper">
     <div class= "coordonnes">
      <div class="facebook">
-          
-     </div> <!-- facebook -->     
+
+     </div> <!-- facebook -->
        <p> 26 ans </p>
        <p> Permis A, B et vehicule </p>
-        <div class= "adresse">	
-	 <img src="images/adresse.jpg" alt="icone adresse postal">	
+        <div class= "adresse">
+	 <img src="images/adresse.jpg" alt="icone adresse postal">
           <div>
            <p>44 chemin des ducs</p>
            <p> 26190 saint jean en royans</p>
           </div>
         </div> <!-- adresse -->
-             <p> <img src="images/mail.jpg" alt="icone mail">boite mail: 
-             <a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous" 
+             <p> <img src="images/mail.jpg" alt="icone mail">boite mail:
+             <a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
                target="_top"> tib26@hotmail.fr </a> </p>
              <p> <img src ="images/tel.jpg" alt ="icone telephone"> 0611757245</p>
     </div> <!-- coordonnes -->
@@ -42,7 +46,7 @@
   <ul>
     <li> 2013-2017: Rugbyman semis-professionnel </li> <br>
     <li> 2012-2013: Mecanicien Apprenti - <a href="http://www.societe.com/societe/garage-jl-pechoux-352350409.html"
-      target="_blank">Garage Pechoux<span>Quelques informations sur le Garage Pechoux?</span></a> a <a href="https://fr.wikipedia.org/wiki/Izernore" 
+      target="_blank">Garage Pechoux<span>Quelques informations sur le Garage Pechoux?</span></a> a <a href="https://fr.wikipedia.org/wiki/Izernore"
       target="_blank">Izernore<span>Ou se situe IZERNORE</span> </a> </li> <br>
     <li> Avril a mai 2012: Facteur - La Poste a <a href="https://fr.wikipedia.org/wiki/Oyonnax"
       target="_blank">Oyonnax<span>Ou se situe OYONNAX</span> </a> et <a href="https://fr.wikipedia.org/wiki/Hauteville-Lompnes"
@@ -73,13 +77,13 @@
       </ul>
     </li>
   </ul>
-  
+
   </div> <!-- textCentral -->
-  
-  
-  
+
+
+
   <h2> Formation </h2>
-  
+
   <div class="textCentral">
     <strong>
      <ul>
@@ -97,14 +101,14 @@
      </ul>
     </strong>
   </div> <!-- textCentral -->
-      
-    
+
+
     <h2> Centre d'interet </h2>
- 
+
  <div class="textCentral">
-    <strong> 
+    <strong>
      <ul>
-	<Li> Pratique du rugby depuis 14 ans: 
+	<Li> Pratique du rugby depuis 14 ans:
 	  <ul>
 
 	    <li> 3 ans en selection <a href="http://rugby2607.com/#"
@@ -113,15 +117,15 @@
 	      target="_blank">us Oyonnax<Span>Union Sportive Oyonnax Rugby</span> </a> de septembre 2011 a aout 2014 </li>
 	    <li> Entree au club du <a href="http://www.scroyans.fr/"
 	      target="_blank">SC Royannais<span>Sporting Club Royannais</span> </a> en Septembre 2014 </li>
- 
+
 	  </ul>
 	</li>
      </ul>
     </strong>
-    
-      
+
+
     </div> <!-- textCentral -->
-    
+
 
    </article>
 
