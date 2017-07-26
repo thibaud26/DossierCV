@@ -4,44 +4,34 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
-      <title> curriculum vitae</title>
+      <title> Curriculum Vitae</title>
   </head>
 
 <body>
     
+    <div class = "divleft">
+   
     
-    <header>
-      
         <p>
             <img src="images/thibaudfacebook.png"
               class="image" alt="image">
         </p>
 
-
-                              <!-- H1 -->
-                <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">developpeur web</span></h1>
-
-    </header>
+    <aside class = "aside-left">
     
-    
-    <main class="wrapper">
-    <section>
-        <div class= "coordonnes">
-            <div class="facebook">
-
-                </div> <!-- facebook -->
+    <div class= "coordonnes">
                        <p> 26 ans </p>
-                       <p> Permis A, B et vehicule </p>
+                       <p> Permis A, B et véhicule </p>
             
                     <div class= "adresse">
                                 <img src="images/adresse.jpg" alt="icone adresse postal">
                             <div>
                         <p>44 chemin des ducs</p>
-                        <p> 26190 saint jean en royans</p>
+                        <p> 26190 Saint Jean en Royans</p>
                             </div>
                     </div> <!-- adresse -->
                              <p> 
-                                 <img src="images/mail.jpg" alt="icone mail">boite mail:
+                                 <img src="images/mail.jpg" alt="icone mail">Boite Mail:
                                     <a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
                                     target="_top">
                                     tib26@hotmail.fr 
@@ -52,12 +42,60 @@
                              </p>
             
         </div> <!-- coordonnes -->
+        
+    </aside>
+    
+    <section>
+        <div class = "competences">
+            <div class = "licompetences">
+                
+        <li>Html: </li>
+        <li>Css: </li>
+        <li>Php: </li>
+        <li>Javascript: </li>
+        <li>Linux: </li>
+        <li>GIT:</li>
+        <li>Methode SCRUM: </li>
+                
+        </div>
+            
+        <div class = "liprogress">
+            
+        <progress max="100" value="90" form="form-id">90%</progress>   
+        <progress max="100" value="90" form="form-id">90%</progress>
+        <progress max="100" value="50" form="form-id">50%</progress>
+        <progress max="100" value="50" form="form-id">50%</progress> 
+        <progress max="100" value="70" form="form-id">70%</progress>
+        <progress max="100" value="90" form="form-id">90%</progress> 
+        <progress max="100" value="90" form="form-id">90%</progress>
+            
+        </div>
+        </div>
+        
+    
     </section>
+    
+    </div>
+    
+    <div class = "divright">
+   
+    
+    <header>
+
+                              <!-- H1 -->
+                <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
+
+    </header>
+    
+                <h3> Phrase d'accroche:  </h3>
+    
+    
+    <main class="wrapper">
        
        
        
                                     <!-- H2 -->
-                          <h2> Experiences professionelle </h2>
+                          <h2> Expériences professionelle </h2>
        
        
     <section>
@@ -68,56 +106,56 @@
                 <li> 2013-2017: Rugbyman semis-professionnel 
                 </li> <br>
 
-                <li> 2012-2013: Mecanicien Apprenti - 
+                <li> 2012-2013: Mécanicien Apprenti - 
                     <a href="http://www.societe.com/societe/garage-jl-pechoux-352350409.html"
-                    target="_blank">Garage Pechoux<span>Quelques informations sur le Garage Pechoux?</span>
+                    target="_blank">Garage Péchoux<span>Quelques informations sur le Garage Péchoux?</span>
                     </a> a
                     <a href="https://fr.wikipedia.org/wiki/Izernore"
-                    target="_blank">Izernore<span>Ou se situe IZERNORE</span> 
+                    target="_blank">Izernore<span>Oû se situe IZERNORE</span> 
                     </a> 
                 </li> <br>
 
-                <li> Avril a mai 2012: Facteur - La Poste a <a href="https://fr.wikipedia.org/wiki/Oyonnax"
-                target="_blank">Oyonnax<span>Ou se situe OYONNAX</span> </a> et <a href="https://fr.wikipedia.org/wiki/Hauteville-Lompnes"
-                target="_blank">Hauteville<span>Ou se situe HAUTEVILLE</span> </a> 
+                <li> Avril a mai 2012: Facteur - La Poste à <a href="https://fr.wikipedia.org/wiki/Oyonnax"
+                target="_blank">Oyonnax<span>Oû se situe OYONNAX</span> </a> et <a href="https://fr.wikipedia.org/wiki/Hauteville-Lompnes"
+                target="_blank">Hauteville<span>Oû se situe HAUTEVILLE</span> </a> 
                 </li> <br>
 
-                <li> 2011-2012: Cariste - Agences interimaires a Oyonnax
+                <li> 2011-2012: Cariste - Agence intérimaire à Oyonnax
                 </li> <br>
 
                 <li> 2010-2011: Vendeur comptoir - 
                     <a href="http://www.seigneuriegauthier.com/aspx/index.aspx"
-                    target="_blank">PPGD Comptoir Seigneurie Gauthier<span>Qu'es ce que l'entreprise PPGD</span> 
-                    </a> a 
+                    target="_blank">PPGD Comptoir Seigneurie Gauthier<span>Qu'est ce que l'entreprise PPGD</span> 
+                    </a> à 
                     <a href="https://fr.wikipedia.org/wiki/Valence_(Dr%C3%B4me)"
-                    target="_blank">Valence<span>ou se situe Valence</span> </a>
+                    target="_blank">Valence<span>Oû se situe Valence</span> </a>
                               <ul>
 
-                                <li>Accueil des clients</li>
-                                <li> Preparation des commandes </li>
+                                <li> Accueil des clients</li>
+                                <li> Préparation des commandes </li>
                                 <li> Teinte des peintures </li>
-                                <li> Verification des teintes </li>
+                                <li> Vérification des teintes </li>
                                 <li> Gestion des stocks </li>
 
                               </ul>
 
                 </li>
 
-                <li> 2009-2011: Cariste - Agences interimaires a <a href="https://fr.wikipedia.org/wiki/Loriol-sur-Dr%C3%B4me"
-              target="_blank">loriol<span>Ou se situe loriol</span> </a> 
+                <li> 2009-2011: Cariste - Agences interimaires à <a href="https://fr.wikipedia.org/wiki/Loriol-sur-Dr%C3%B4me"
+              target="_blank">Loriol<span>Oû se situe loriol</span> </a> 
                 </li> <br>
 
                 <li> 2007-2009: Monteur pneumatique apprenti - <a href="http://www.societe.com/societe/pneu-mat-x-489389908.html"
                 target="_blank">Pneu-Mat-X<span>Entreprise Pneu-Mat-X</span>
-                </a> a 
+                </a> à 
                 <a href="https://fr.wikipedia.org/wiki/Loriol-sur-Dr%C3%B4me"
-                target="_blank">loriol<span>Ou se situe loriol</span> 
+                target="_blank">Loriol<span>Oû se situe loriol</span> 
                 </a>
 
                                   <ul>
-                                <li> accueil des clients </li>
+                                <li> Accueil des clients </li>
                                 <li> Controle des pneumatiques </li>
-                                <li> Montage, demontage, equilibrage </li>
+                                <li> Montage, démontage, équilibrage </li>
                                 <li> Gestion des stocks </li>
                                 <li> Vente </li>
                                   </ul>
@@ -139,23 +177,23 @@
 
              <ul>
 
-                 <li> 05/2017-12/2017: formation developpeur web avec <a href="http://simplon.co/pont-en-royans/"
-                target="_blank">Simplon.co<span>Tous savoir sur SIMPLON.CO</span> </a> 
+                 <li> 05/2017-12/2017: Formation développeur web avec <a href="http://simplon.co/pont-en-royans/"
+                target="_blank">Simplon.co<span>Tout savoir sur SIMPLON.CO</span> </a> 
                  </li> <br>
 
-                 <li> 2012-2013: Obtention Cap Mecanique autmobiles - <a href="http://cecof.asso.fr/"
-                target="_blank">C.E.C.O.F<span>Centre Formation Apprentis Centre Consulaire Form.</span> </a>a <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
-                target="_blank">Amberieu en bugey<span>Ou se situe amberieu</span> </a> 
+                 <li> 2012-2013: Obtention Cap Mécanique autmobiles - <a href="http://cecof.asso.fr/"
+                target="_blank">C.E.C.O.F<span>Centre Formation Apprentis Centre Consulaire Form.</span> </a>à <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
+                target="_blank">Amberieu-en-bugey<span>Oû se situe Amberieu</span> </a> 
                  </li> <br>
 
                  <li> 2007-2009: Obtention Cap Vendeur Magasinier - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>a <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">livron<span>Ou se situe livron</span> </a> 
+                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
                  </li> <br>
 
-                 <li> 2006-2007: 1ere annee CAP Mecanique - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>a <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">livron<span>Ou se situe livron</span> </a> 
+                 <li> 2006-2007: 1ère année CAP Mecanique - <a href="http://www.cfmda.fr/fr/"
+                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
                  </li> <br>
 
              </ul>
@@ -175,18 +213,18 @@
 
                 <strong>
                      <ul>
-                        <Li> Pratique du rugby depuis 14 ans:
+                        <Li> Pratique du rugby depuis 19 ans:
                         </Li>
 
-                <li> 3 ans en selection <a href="http://rugby2607.com/#"
-                  target="_blank">drome ardeche<span>Comite Drome Ardeche de Rugby</span> </a>
+                <li> 3 ans en sélection <a href="http://rugby2607.com/#"
+                  target="_blank">Drome Ardeche<span>Comite Drome Ardeche de Rugby</span> </a>
                 </li>
 
-                <li> A l'<a href="http://www.usorugby.com/"
-                            target="_blank">us Oyonnax<Span>Union Sportive Oyonnax Rugby</span> </a> de septembre 2011 a aout 2014 
+                <li> À l'<a href="http://www.usorugby.com/"
+                            target="_blank">US Oyonnax<Span>Union Sportive Oyonnax Rugby</span> </a> de septembre 2011 à aout 2014 
                 </li>
 
-                <li> Entree au club du <a href="http://www.scroyans.fr/"
+                <li> Entrée au club du <a href="http://www.scroyans.fr/"
                   target="_blank">SC Royannais<span>Sporting Club Royannais</span> </a> en Septembre 2014 
                 </li>
 
@@ -200,11 +238,12 @@
 
     </section>
     </main>
- 
+  
     <footer>
  <a href="#top"> retour en haut de la page</a>
     </footer>
-    
+  
+    </div>  
     
 </body>
 </html>
