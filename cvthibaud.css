@@ -14,15 +14,14 @@ body {
 
 
 .divright {
-    width: 125%;
+    width: 174%;
 }
 
 
 
 h1 {
     text-transform: uppercase;
-    font-size: 250%;
-    color: #EAEFF0;
+    font-size: 2.5em;
     text-decoration: underline;
     font-style: italic;
     font-weight: bold;
@@ -31,10 +30,7 @@ h1 {
 	background:#069;
     text-align: center;
     font-family: "Apple Chancery", cursive;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    color: black;
+    color: #EAEFF0;
 }
 
 
@@ -46,14 +42,13 @@ h2 {
     font-style: italic;
     font-weight: bold;
     height:auto;
-	width: auto;
+	width: 42%;
 	background:#069;
     text-align: center;
     font-family: "Apple Chancery", cursive;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
+    border: 1px solid black;
     color: black;
+    margin: 3% 26% 7%;
   /*margin-left: 200px;*/
 }
 
@@ -76,14 +71,19 @@ h2 {
 
 .competences {
     display: flex;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: bold;
     margin: 6%;
-    padding-top: 5em;
     text-decoration: underline;
 }
 
+
+.h3competences {
+    display: flex;
+    font-size: 2em;
+    text-decoration: underline;
+}
 
 
 /* barre de progression */
@@ -131,17 +131,20 @@ progress::-moz-progress-bar {
 
 
 .coordonnes {
-    align-items: start;
+    align-items: right;
     display: flex;
     flex-flow: column nowrap;
     font-family: arial,sans-serif;
     font-size: 20px;
     padding: 20px;
+    padding-left: 0;
+    padding-right: 44px;
+    padding-top: 0;
 }
     
 
 
-.coordonnes img, .adresse img {
+.icone img{
   height: 20px;
   max-width: 100%;
   display: inline-block; /* pour l'image s'aligne sur le texte */
@@ -149,11 +152,39 @@ progress::-moz-progress-bar {
 }
 
 
+.icone1 {
+    padding: 33%;
+}
+
+
+.icone2 {
+    padding: 34%;
+}
+
+
+.icone3 {
+    margin-top: -12%;
+    padding-bottom: 16%;
+    padding-right: 34%;
+}
+
+
+.icone4 {
+    padding-right: 34%;
+}
+
+
+.icone5 {
+    padding-right: 30%;
+    padding-top: 30%;
+}
+
+
 
 .policedeveloppeur {
   font-family: "Apple Chancery", cursive;
-  font-size: 50px;
-  color: black;
+  font-size: 0.5em;
+  color: #EAEFF0;
   display: block;
 }
 
@@ -177,8 +208,7 @@ header {
     border: 10px dashed black;
     border-radius: 20%;
     float: left;
-    margin-left: 5em;
-    width: 65%;
+    width: 94%;
 }/* fin css photo */
 
 
@@ -244,6 +274,14 @@ ul li ul li /* les li qui sont dans les ul, des li, des ul */ {
     font-weight: 400;
     list-style-type: square; /* carré a gauche des phrases */
     padding-right: 15px;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
 }
 
 

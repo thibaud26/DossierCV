@@ -10,7 +10,8 @@
 <body>
     
     <div class = "divleft">
-   
+  <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
+
     
         <p>
             <img src="images/thibaudfacebook.png"
@@ -20,34 +21,36 @@
     <aside class = "aside-left">
     
     <div class= "coordonnes">
-                       <p> 26 ans </p>
-                       <p> Permis A, B et véhicule </p>
-            
-                    <div class= "adresse">
-                                <img src="images/adresse.jpg" alt="icone adresse postal">
-                            <div>
-                        <p>44 chemin des ducs</p>
-                        <p> 26190 Saint Jean en Royans</p>
-                            </div>
-                    </div> <!-- adresse -->
-                             <p> 
-                                 <img src="images/mail.jpg" alt="icone mail">Boite Mail:
-                                    <a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
-                                    target="_top">
-                                    tib26@hotmail.fr 
-                                    </a> 
-                             </p>
-                             <p> 
-                                 <img src ="images/tel.jpg" alt ="icone telephone"> 0611757245
-                             </p>
-            
-        </div> <!-- coordonnes -->
+        <p>44 chemin des ducs</p>
+        <p> 26190 Saint Jean en Royans</p> 
+        <p>Boite Mail:<a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
+        target="_top">tib26@hotmail.fr </a> 
+        </p>
+        <p> 26 ans </p>
+        <p>0611757245</p>
+        <p> Permis A, B et véhicule </p>
+        
+    </div>
+        
+    <div class = "icone">   
+        <p><img class = "icone1" src="images/adresse.jpg" alt="icone adresse postal"></p>
+        <p><img class = "icone2" src="images/mail.jpg" alt="icone mail"></p>
+        <p><img class = "icone3" src="images/anniversaire.png" alt="icone anniversaire"></p>
+        <p><img class = "icone4" src ="images/tel.jpg" alt ="icone telephone"></p>
+        <p><img class = "icone5" src ="images/voiture.png" alt ="icone voiture"></p>
+    </div> 
+        
         
     </aside>
     
+        
     <section>
+        
+        
+        <h3 class="h3competences">Compétences : </h3>
         <div class = "competences">
             <div class = "licompetences">
+                
                 
         <li>Html: </li>
         <li>Css: </li>
@@ -77,20 +80,33 @@
     
     </div>
     
-    <div class = "divright">
-   
     
-    <header>
+    
+    
+    
+    
+    
+    
+    
+                                <div class = "divright">
 
-                              <!-- H1 -->
-                <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
+                                    
+                                    
+                                    
+<div id="conteneur">
 
-    </header>
+    <div class="element1">"Codez toujours comme si la personne qui allait</div>
+
+    <div class="element2">maintenir votre code était un violent</div>
+
+    <div class="element3">psychopathe qui sait où vous habitez."</div>
+                    
+    <div class="element4">― <strong>John Woods</strong> </div>
+
+</div>
+            
     
-                <h3> Phrase d'accroche:  </h3>
-    
-    
-    <main class="wrapper">
+                                    <main class="wrapper">
        
        
        
