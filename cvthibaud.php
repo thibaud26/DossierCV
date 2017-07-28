@@ -9,42 +9,87 @@
 
 <body>
     
-    <div class = "divleft">
-  <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
+    
+    
+<!-----------------------------------------------------------------><div class = "divleft"><!----------------------------------------------------------------->                         
+        
+        
+        
+                    <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
 
     
-        <p>
+        <p class = "pImage">
             <img src="images/thibaudfacebook.png"
               class="image" alt="image">
         </p>
+                                    
+                                    
+<div id="conteneur">
 
-    <aside class = "aside-left">
+    <div class="element1">"Codez toujours comme si la personne qui allait</div>
+
+    <div class="element2">maintenir votre code était un violent</div>
+
+    <div class="element3">psychopathe qui sait où vous habitez."</div>
+                    
+    <div class="element4">― <strong>John Woods</strong> </div>
+
+</div>
+                                    
+                                    
+
+<aside class = "aside-left">
     
     <div class= "coordonnes">
-        <p>44 chemin des ducs</p>
-        <p> 26190 Saint Jean en Royans</p> 
-        <p>Boite Mail:<a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
-        target="_top">tib26@hotmail.fr </a> 
-        </p>
-        <p> 26 ans </p>
-        <p>0611757245</p>
-        <p> Permis A, B et véhicule </p>
+        
+        <article>
+            
+         <main><p>44 chemin des ducs 26190 Saint Jean en Royans</p></main> 
+            <aside class = "icone"><p class = "pImage"><img class = "icone1" 
+                                        src="images/adresse.jpg" 
+                                        alt="icone adresse postal">
+            </p></aside>
+            
+         </article>   
+        
+        <article>
+            <main><p>Mail : <a href="mailto:tib26@hotmail.fr?Subject=Proposition%20rendez%20vous"
+                     target="_top">tib26@hotmail.fr</a></p></main> 
+            <aside class = "icone"><p class = "pImage"><img class = "icone2" 
+                                                        src="images/mail.jpg" 
+                                                        alt="icone mail">
+            </p></aside>
+         </article>   
+        
+         <article>
+            <main><p> 26 ans </p></main> 
+            <aside class = "icone"><p class = "pImage"><img class = "icone3" 
+                                                        src="images/anniversaire.png" 
+                                                        alt="icone anniversaire">
+            </p></aside>
+         </article> 
+        
+         <article>
+            <main><p>0611757245</p></main> 
+            <aside class = "icone"><p class = "pImage"><img class = "icone4" 
+                                                        src ="images/tel.jpg" 
+                                                        alt ="icone telephone">
+            </p></aside>
+         </article>
+        
+         <article>
+            <main><p> Permis A, B et véhicule </p></main> 
+            <aside class = "icone"><p class = "pImage"><img class = "icone5" 
+                                                        src ="images/voiture.png" 
+                                                        alt ="icone voiture">
+            </p></aside>
+         </article>
         
     </div>
-        
-    <div class = "icone">   
-        <p><img class = "icone1" src="images/adresse.jpg" alt="icone adresse postal"></p>
-        <p><img class = "icone2" src="images/mail.jpg" alt="icone mail"></p>
-        <p><img class = "icone3" src="images/anniversaire.png" alt="icone anniversaire"></p>
-        <p><img class = "icone4" src ="images/tel.jpg" alt ="icone telephone"></p>
-        <p><img class = "icone5" src ="images/voiture.png" alt ="icone voiture"></p>
-    </div> 
-        
-        
-    </aside>
+</aside>
     
         
-    <section>
+<section>
         
         
         <h3 class="h3competences">Compétences : </h3>
@@ -52,13 +97,13 @@
             <div class = "licompetences">
                 
                 
-        <li>Html: </li>
-        <li>Css: </li>
+        <li>Html5: </li>
+        <li>Css3: </li>
         <li>Php: </li>
         <li>Javascript: </li>
         <li>Linux: </li>
         <li>GIT:</li>
-        <li>Methode SCRUM: </li>
+        <li>SCRUM: </li>
                 
         </div>
             
@@ -75,8 +120,18 @@
         </div>
         </div>
         
+        <div class = "projet5">
+                 <li>   <p>Toutes mes créations sur : 
+                        </p>
+                        <p><b><i><a href="http://www.developont.fr/~thibaud/"
+                                    target="_blank">http://www.developont.fr/~thibaud/<span> Cliquez pour voir </span>
+                                    </a></i></b>
+                            
+                        </p>
+                 </li>
+                 </div>
     
-    </section>
+</section>
     
     </div>
     
@@ -88,34 +143,111 @@
     
     
     
-                                <div class = "divright">
-
-                                    
-                                    
-                                    
-<div id="conteneur">
-
-    <div class="element1">"Codez toujours comme si la personne qui allait</div>
-
-    <div class="element2">maintenir votre code était un violent</div>
-
-    <div class="element3">psychopathe qui sait où vous habitez."</div>
-                    
-    <div class="element4">― <strong>John Woods</strong> </div>
-
-</div>
+            <!-----------------------------------------------------------------><div class = "divright"><!----------------------------------------------------------------->
             
     
-                                    <main class="wrapper">
+                                <main class="blockright">
        
        
+                                                                <!-- H2 -->
+                                                            <h2> Expérience en dévelopement WEB </h2>
+    <section>
+         <div class = "textCentral1">
+             
+             <ul class = "ulprojet">
+                 <div class = "projet1">
+                 <li>   <p>Premiers projet :
+                        </p> 
+                     <p><b><i>Mon curriculum Vitae</i></b>, réalisé seulement 2 semaines apres le debut de la formation developpeur web et mobile. <br>
+                            (Cv réalisé tout en HTML et CSS.)
+                        </p>
+                 </li>
+                 </div>
+                 
+                 <div class = "projet2">
+                 <li>   <p>Second projet :
+                        </p>
+                        <p><b><i><a href="http://www.developont.fr/~thibaud/Siteweb/dossierprincipal.php"
+                                    target="_blank">Un site Web<span> Cliquez pour voir </span>
+                                    </a></i></b>, "vitrine" réalisé individuellement pour la formation Develo'Pont. <br>
+                                    (Site réalisé en HTML et CSS.)
+                        </p>
+                 </li>
+                 </div>
+                 
+                 <div class = "projet3">
+                 <li>   <p>Troisieme projet :
+                        </p>
+                        <p><b><i><a href="http://www.developont.fr/~thibaud/travailA5/accueil/accueil.php"
+                                    target="_blank">Un site web<span> Cliquez pour voir </span>
+                                    </a> </i></b>, crée pour la formation Develo'Pont. 
+                                    Site réalisé avec 4 autres apprenants de la formation.  <br>
+                                    (Site réalisé en HTML, CSS et PHP.)
+                                
+                        </p>
+                 </li>
+                 </div>
+                 
+                 <div class = "projet4">
+                 <li>   <p>Quatrieme projet :
+                        </p>
+                        <p><b><i><a href="http://www.developont.fr/~thibaud/Table3/www/"
+                                    target="_blank">Un réseau Social<span> Cliquez pour voir </span>
+                                    </a></i></b>, réalisé avec 4 autres apprenants de la formation Develo'Pont <br>
+                                    (Site réalisé en HTML, CSS, PHP et JAVASCRIPT.)
+                            
+                        </p>
+                 </li>
+                 </div>
+                 
+             </ul>
+                                                                            
+        </div> <!-- textCentral1 -->
+    </section>                                
+                                    
+                                    
+                                   
+                                                                <!-- H2 -->
+                                                            <h2> Formation </h2>
        
-                                    <!-- H2 -->
-                          <h2> Expériences professionelle </h2>
+    <section>
+          <div class="textCentral2">
+
+             <ul>
+
+                 <li> 05/2017-12/2017: Formation développeur web et mobiles avec <a href="http://developont.fr/accueil/accueil.php"
+                target="_blank">Dévelo'Pont<span>Site internet réalisé par les apprenants</span> </a> une branche
+                <a href="http://simplon.co/pont-en-royans/" target="_blank">Simplon.co<span>Tout savoir sur SIMPLON.CO</span> </a> labélisée grande école du numérique.
+                 </li> <br>
+
+                 <li> 2012-2013: Obtention Cap Mécanique autmobiles - <a href="http://cecof.asso.fr/"
+                target="_blank">C.E.C.O.F<span>Centre Formation Apprentis Centre Consulaire Form.</span> </a>à <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
+                target="_blank">Amberieu-en-bugey<span>Oû se situe Amberieu</span> </a> 
+                 </li> <br>
+
+                 <li> 2007-2009: Obtention Cap Vendeur Magasinier - <a href="http://www.cfmda.fr/fr/"
+                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
+                 </li> <br>
+
+                 <li> 2006-2007: 1ère année CAP Mecanique - <a href="http://www.cfmda.fr/fr/"
+                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
+                 </li> <br>
+
+             </ul>
+
+
+          </div> <!-- textCentral2 -->
+        </section>
+       
+                                    
+                                                            <!-- H2 -->
+                                                <h2> Expériences professionelle </h2>
        
        
     <section>
-          <div class="textCentral">
+          <div class="textCentral3">
 
             <ul>
 
@@ -179,53 +311,19 @@
                 </li>
           </ul>
 
-          </div> <!-- textCentral -->
+          </div> <!-- textCentral3 -->
     </section>
 
 
-                                  <!-- H2 -->
-                              <h2> Formation </h2>
-       
-    <section>
-          <div class="textCentral">
+                                    
+                                    
 
-            <strong>
-
-             <ul>
-
-                 <li> 05/2017-12/2017: Formation développeur web avec <a href="http://simplon.co/pont-en-royans/"
-                target="_blank">Simplon.co<span>Tout savoir sur SIMPLON.CO</span> </a> 
-                 </li> <br>
-
-                 <li> 2012-2013: Obtention Cap Mécanique autmobiles - <a href="http://cecof.asso.fr/"
-                target="_blank">C.E.C.O.F<span>Centre Formation Apprentis Centre Consulaire Form.</span> </a>à <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
-                target="_blank">Amberieu-en-bugey<span>Oû se situe Amberieu</span> </a> 
-                 </li> <br>
-
-                 <li> 2007-2009: Obtention Cap Vendeur Magasinier - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
-                 </li> <br>
-
-                 <li> 2006-2007: 1ère année CAP Mecanique - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">Livron<span>Oû se situe Livron</span> </a> 
-                 </li> <br>
-
-             </ul>
-
-            </strong>
-
-          </div> <!-- textCentral -->
-        </section>
-       
-
-                                    <!-- H2 -->
-                            <h2> Centre d'interet </h2>
+                                                            <!-- H2 -->
+                                                    <h2> Centre d'interet </h2>
        
        
     <section>
-            <div class="textCentral">
+            <div class="textCentral4">
 
                 <strong>
                      <ul>
@@ -237,7 +335,7 @@
                 </li>
 
                 <li> À l'<a href="http://www.usorugby.com/"
-                            target="_blank">US Oyonnax<Span>Union Sportive Oyonnax Rugby</span> </a> de septembre 2011 à aout 2014 
+                            target="_blank">US Oyonnax <span> Union Sportive Oyonnax Rugby </span> </a> de septembre 2011 à aout 2014 
                 </li>
 
                 <li> Entrée au club du <a href="http://www.scroyans.fr/"
@@ -249,7 +347,7 @@
             </strong>
 
 
-            </div> <!-- textCentral -->
+            </div> <!-- textCentral4 -->
 
 
     </section>
