@@ -22,6 +22,9 @@
 
 
   </header>
+
+  <div class="progress-bar blue"></div>
+
    <article class="wrapper">
     <div class= "coordonnes">
      <div class="facebook">
