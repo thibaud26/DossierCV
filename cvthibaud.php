@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html>
 
   <head>
@@ -154,16 +154,18 @@
 
              <ul class = "ulprojet">
                  <div class = "projet1">
-                 <li>   <p>Premiers projet :
+                 <li>   <p class = "pProjet">Premiers projet :
                         </p>
-                     <p><b><i>Mon curriculum Vitae</i></b>, réalisé seulement 2 semaines apres le debut de la formation developpeur web et mobile. <br>
-                            (Cv réalisé tout en HTML et CSS.)
+                        <p><b><i><a href="http://www.developont.fr/~thibaud/DossierCV/cvthibaud.php"
+                                    target="_blank">Mon curriculum Vitae<span> Cliquez pour voir </span>
+                                    </a></i></b>, réalisé seulement 2 semaines apres le debut de la formation developpeur web et mobile. <br>
+                                    (Cv réalisé tout en HTML et CSS.)
                         </p>
                  </li>
                  </div>
 
                  <div class = "projet2">
-                 <li>   <p>Second projet :
+                 <li>   <p class = "pProjet">Second projet :
                         </p>
                         <p><b><i><a href="http://www.developont.fr/~thibaud/Siteweb/dossierprincipal.php"
                                     target="_blank">Un site Web<span> Cliquez pour voir </span>
@@ -174,7 +176,7 @@
                  </div>
 
                  <div class = "projet3">
-                 <li>   <p>Troisieme projet :
+                 <li>   <p class = "pProjet">Troisieme projet :
                         </p>
                         <p><b><i><a href="http://www.developont.fr/~thibaud/travailA5/accueil/accueil.php"
                                     target="_blank">Un site web<span> Cliquez pour voir </span>
@@ -187,7 +189,7 @@
                  </div>
 
                  <div class = "projet4">
-                 <li>   <p>Quatrieme projet :
+                 <li>   <p class = "pProjet">Quatrieme projet :
                         </p>
                         <p><b><i><a href="http://www.developont.fr/~thibaud/Table3/www/"
                                     target="_blank">Un réseau Social<span> Cliquez pour voir </span>
@@ -323,7 +325,6 @@
     <section>
             <div class="textCentral4">
 
-                <strong>
                      <ul>
                         <Li> Pratique du rugby depuis 19 ans:
                         </Li>
@@ -341,8 +342,6 @@
                 </li>
 
               </ul>
-
-            </strong>
 
 
             </div> <!-- textCentral4 -->

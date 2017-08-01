@@ -19,7 +19,6 @@ body {
 h1 {
     text-transform: uppercase;
     font-size: 2.5em;
-    text-decoration: underline;
     font-style: italic;
     font-weight: bold;
     height:auto;
@@ -115,10 +114,10 @@ h1 {
 .h3competences {
     display: flex;
     font-size: 2em;
-    text-decoration: underline;
     padding-left: 2em;
     border-top: 5px solid white;
     padding-top: 1em;
+    font-family: "Apple Chancery", cursive;
 }
 
 
@@ -141,9 +140,7 @@ h1 {
 .competences {
     display: flex;
     font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
+    font-family: "Apple Chancery", cursive;
 }
 
 
@@ -212,6 +209,13 @@ progress::-moz-progress-bar {
 }
 
 
+
+.pProjet {
+  font-weight: bold;
+}
+
+
+
 .projet1{
    flex-flow: row;
 }
@@ -257,7 +261,6 @@ progress::-moz-progress-bar {
 
 h2 {
     /*border-style : double; */
-    text-decoration: underline; /* sert a souligner les h2 et h1 */
     font-style: italic;
     font-weight: bold;
     height: auto;
@@ -279,14 +282,6 @@ h2 {
     width: 100%;
 }
 
-
-                                    /* tous les liens */
-a {
-    color: olivedrab;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 
                 /*--------------------------GENERAL---------------------------------*/
@@ -331,25 +326,12 @@ a span {
                                 /* fin tous les liens */
 
 
-strong {
-    font-weight: bolder;
-}
-
 
 ul {
     margin: 10px;
     text-align: left;
-
-    font-weight: 700;
 }
 
-
-ul li ul li /* les li qui sont dans les ul, des li, des ul */
-{
-      font-weight: 400;
-      list-style-type: square; /* carré a gauche des phrases */
-      padding-right: 15px;
-}
 
 
 .progress-bar {
