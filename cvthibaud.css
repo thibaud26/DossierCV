@@ -15,7 +15,8 @@ body {
                                   color: white;
                                   width: 25%;
                                   min-width: 360px;
-                                  padding: 1%;
+                                  padding-left: 1%;
+                                  padding-right: 2%;
                                 }
 
 
@@ -385,6 +386,9 @@ footer {
                             flex-direction: column;
                             flex-wrap: wrap;
                             width: 100%;
+                          }
+                          .blockright {
+                            width: 80%;
                           }
                           .divleft {
                             width: auto;
