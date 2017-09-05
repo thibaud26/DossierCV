@@ -2,17 +2,21 @@ body {
     display: flex;
     height: 100%;
     background-color: #EAEFF0;
+    flex-direction: row;
 }
 
 
 
-/*********************************************************/    .divleft {           /***************************************************************/
-                                                                    background-color: #2A3C52;
-                                                                    display: flex;
-                                                                    flex-flow: column nowrap;
-                                                                    border: 1px solid black;
-                                                                    color: white;
-                                                                }
+/**************************/    .divleft {           /********************************/
+                                  background-color: #2A3C52;
+                                  display: flex;
+                                  flex-flow: column;
+                                  border: 1px solid black;
+                                  color: white;
+                                  width: 25%;
+                                  min-width: 360px;
+                                  padding: 1%;
+                                }
 
 
 
@@ -110,6 +114,10 @@ h1 {
   height: 20px;
 }
 
+.icone {
+  padding-left: 2em;
+}
+
 
 .h3competences {
     display: flex;
@@ -127,14 +135,6 @@ h1 {
     justify-content: space-around;
     padding-left: 1em;
 }
-
-
-
-/*    display: flex;
-    flex-flow: column;
-
-} */
-
 
 
 .competences {
@@ -192,12 +192,12 @@ progress::-moz-progress-bar {
     padding-top: 41%;
 }*/
 
-                    /*********************************************************/    .divright {           /***************************************************************/
-                                                                                    width: 174%;
-                                                                                 }
+                    /**************************/    .divright {           /*********************************/
+                                                      width: 100%;
+                                                    }
 
 
-/*---------------------------------------------------------Experience professionelle-------------------------------------------------------*/
+/*-----------------------Experience professionelle--------------------------------------------*/
 
 .textCentral1 {
     display: flex;
@@ -241,21 +241,30 @@ progress::-moz-progress-bar {
 }
 
 
-/*---------------------------------------------------------FIN Experience professionelle-------------------------------------------------------*/
+/*--------------------------FIN Experience professionelle--------------------------------*/
 
 
 .blockright {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+
+.sectionRight {
+  width: 100%;
+  display: flex;
 }
 
 
 
 .textCentral1, .textCentral2, .textCentral3, .textCentral4 {
     margin: 0 auto;
-    text-align: center;
-    width: 800px;
+    text-align: justify;
     letter-spacing: 0.3px;
+    display: flex;
 }
 
 
@@ -270,17 +279,18 @@ h2 {
     font-family: "Apple Chancery", cursive;
     border: 1px solid black;
     color: #EAEFF0;
-    margin-left: 10em;
+    align-self: center;
 }
 
 
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 2000px;
-    min-width: 300px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
 }
+
 
 
 
@@ -364,5 +374,26 @@ progress-bar:before {
 
 
 footer {
-  text-align: right;
+  text-align: center;
 }
+
+
+                      /******************** RESPONSIVE ************************/
+
+
+                      @media screen and (max-width: 800px){
+                           body{
+                             flex-direction: column;
+                           }
+                          .divright{
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                            width: 100%;
+                          }
+                          .divleft {
+                            width: auto;
+                            align-items: center;
+                            display: flex;
+                          }
+                        }

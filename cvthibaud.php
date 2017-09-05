@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
       <title> Curriculum Vitae</title>
   </head>
@@ -99,9 +100,11 @@
         <li>Css3: </li>
         <li>Php: </li>
         <li>Javascript: </li>
-        <li>Linux: </li>
-        <li>GIT:</li>
+        <li>Slackware: </li>
+        <li>Debian: </li>
+        <li>GIT: </li>
         <li>SCRUM: </li>
+        <li>SSH: </li>
 
         </div>
 
@@ -109,11 +112,13 @@
 
         <progress max="100" value="90" form="form-id">90%</progress>
         <progress max="100" value="90" form="form-id">90%</progress>
-        <progress max="100" value="50" form="form-id">50%</progress>
-        <progress max="100" value="50" form="form-id">50%</progress>
+        <progress max="100" value="40" form="form-id">40%</progress>
+        <progress max="100" value="40" form="form-id">40%</progress>
+        <progress max="100" value="70" form="form-id">70%</progress>
         <progress max="100" value="70" form="form-id">70%</progress>
         <progress max="100" value="90" form="form-id">90%</progress>
         <progress max="100" value="90" form="form-id">90%</progress>
+        <progress max="100" value="50" form="form-id">50%</progress>
 
         </div>
         </div>
@@ -149,7 +154,7 @@
 
                                                                 <!-- H2 -->
                                                             <h2> Expérience en développement WEB </h2>
-    <section>
+    <section class="sectionRight">
          <div class = "textCentral1">
 
              <ul class = "ulprojet">
@@ -210,7 +215,7 @@
                                                                 <!-- H2 -->
                                                             <h2> Formation </h2>
 
-    <section>
+    <section class="sectionRight">
           <div class="textCentral2">
 
              <ul>
@@ -246,7 +251,7 @@
                                                 <h2> Expériences professionelle </h2>
 
 
-    <section>
+    <section class="sectionRight">
           <div class="textCentral3">
 
             <ul>
@@ -322,7 +327,7 @@
                                                     <h2> Centre d'interet </h2>
 
 
-    <section>
+    <section class="sectionRight">
             <div class="textCentral4">
 
                      <ul>
