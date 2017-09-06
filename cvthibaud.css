@@ -395,6 +395,9 @@ footer {
                             align-items: center;
                             display: flex;
                           }
+                          h2 {
+                              width: 84%;
+                          }
                         }
 
 
