@@ -32,6 +32,7 @@ h1 {
     background:#2A3C52;
     text-align: center;
     color: #EAEFF0;
+    font-family: 'Merriweather', serif;
 }
 
                                     /* css de ma photo photo */
@@ -51,7 +52,7 @@ h1 {
 
 .policedeveloppeur {
   font-size: 0.5em;
-  color: #EAEFF0;
+  color: olivedrab;
   display: block;
 }
 
@@ -132,6 +133,7 @@ h1 {
     padding-left: 2em;
     border-top: 5px solid white;
     padding-top: 1em;
+    font-family: 'Merriweather', serif;
 }
 
 
@@ -278,7 +280,7 @@ progress::-moz-progress-bar {
 
 h2 {
     /*border-style : double; */
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: bold;
     height: auto;
     width: 64%;
@@ -288,6 +290,8 @@ h2 {
     color: #EAEFF0;
     align-self: center;
     min-width: 10em;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
 }
 
 

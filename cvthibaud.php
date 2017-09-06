@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
-      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-      <title> Curriculum Vitae</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+      
+                                            <title> Curriculum Vitae</title>
   </head>
 
 <body>
@@ -17,7 +19,8 @@
 
 
 
-                    <h1 class="wrapper" id="top">Bousquainaud Thibaud<span class="policedeveloppeur">développeur web</span></h1>
+                    <h1 class="wrapper" id="top"> Bousquainaud Thibaud <span class="policedeveloppeur"><a href="http://developont.fr/~thibaud/portfolio/"
+                                                                                                          target="_blank"> Développeur web </a> </span> </h1>
 
 
         <p class = "pImage">
@@ -27,13 +30,10 @@
 
 
 <div id="conteneurCitation">
-
+    
     <div class="element1">"Codez toujours comme si la personne qui allait</div>
-
     <div class="element2">maintenir votre code était un violent</div>
-
     <div class="element3">psychopathe qui sait où vous habitez."</div>
-
     <div class="element4">― <strong>John Woods</strong> </div>
 
 </div>
@@ -222,23 +222,23 @@
              <ul>
 
                  <li> 05/2017-12/2017: Formation développeur web et mobiles avec <a href="http://developont.fr/accueil/accueil.php"
-                target="_blank">Dévelo'Pont<span>Site internet réalisé par les apprenants</span> </a> une branche
-                <a href="http://simplon.co/pont-en-royans/" target="_blank">Simplon.co<span>Tout savoir sur SIMPLON.CO</span> </a> labélisée grande école du numérique.
+                target="_blank"> Dévelo'Pont <span> Site internet réalisé par les apprenants </span> </a> une branche
+                <a href="http://simplon.co/pont-en-royans/" target="_blank"> Simplon.co <span> Tout savoir sur SIMPLON.CO </span> </a>, labélisée grande école du numérique.
                  </li> <br>
 
                  <li> 2012-2013: Obtention Cap Mécanique autmobiles - <a href="http://cecof.asso.fr/"
-                target="_blank">C.E.C.O.F<span>Centre Formation Apprentis Centre Consulaire Form.</span> </a>à <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
-                target="_blank">Amberieu-en-bugey<span>Oû se situe Amberieu</span> </a>
+                target="_blank"> C.E.C.O.F <span> Centre Formation Apprentis Centre Consulaire Form. </span> </a> à <a href="https://fr.wikipedia.org/wiki/Amb%C3%A9rieu-en-Bugey"
+                target="_blank"> Amberieu-en-bugey <span> Oû se situe Amberieu </span> </a>
                  </li> <br>
 
                  <li> 2007-2009: Obtention Cap Vendeur Magasinier - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">Livron<span>Oû se situe Livron</span> </a>
+                target="_blank"> CFA Lucien Ravit <span> Centre de Formation Multi-pro Drome-Ardeche </span> </a> à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank"> Livron <span> Oû se situe Livron </span> </a>
                  </li> <br>
 
                  <li> 2006-2007: 1ère année CAP Mecanique - <a href="http://www.cfmda.fr/fr/"
-                target="_blank">CFA Lucien Ravit<span>Centre de Formation Multi-pro Drome-Ardeche</span> </a>à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
-                target="_blank">Livron<span>Oû se situe Livron</span> </a>
+                target="_blank"> CFA Lucien Ravit <span> Centre de Formation Multi-pro Drome-Ardeche </span> </a> à <a href="https://fr.wikipedia.org/wiki/Livron-sur-Dr%C3%B4me"
+                target="_blank"> Livron <span> Oû se situe Livron </span> </a>
                  </li> <br>
 
              </ul>
@@ -357,7 +357,7 @@
     </main>
 
     <footer>
- <a href="#top"> retour en haut de la page</a>
+ <a href="#top"> retour en haut de la page </a>
     </footer>
 
     </div>
