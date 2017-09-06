@@ -233,10 +233,10 @@ progress::-moz-progress-bar {
 }
 
 
-.projet5 {
+/*.projet5 {
     padding-top: 14em;
 }
-
+*/
 
 /*--------------------------FIN Experience professionelle--------------------------------*/
 
@@ -270,8 +270,8 @@ h2 {
     font-style: italic;
     font-weight: bold;
     height: auto;
-	  width: 18em;
-	  background:#2A3C52;
+    width: 64%;
+    background:#2A3C52;
     text-align: center;
     border: 1px solid black;
     color: #EAEFF0;
@@ -396,3 +396,6 @@ footer {
                             display: flex;
                           }
                         }
+
+
+                      /******************** PRINT imprim ************************/
