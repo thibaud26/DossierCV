@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
       <title> Curriculum Vitae</title>
   </head>
 
