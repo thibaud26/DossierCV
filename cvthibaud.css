@@ -205,6 +205,15 @@ progress::-moz-progress-bar {
 
 
 /*-----------------------Experience professionelle--------------------------------------------*/
+.pCurriculumImprimable {
+    text-align: right;
+}
+
+
+.CurriculumImprimable {
+    
+}
+
 
 .textCentral1 {
     display: flex;
@@ -430,7 +439,7 @@ footer {
                           }
                           
                           
-                      }
+                      } 
 
 
                       /******************** PRINT imprim ************************/

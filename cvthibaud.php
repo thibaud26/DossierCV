@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="cvthibaud.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+    
       
                                             <title> Curriculum Vitae</title>
   </head>
@@ -148,7 +150,10 @@
 
 
             <!-----------------------------------------------------------------><div class = "divright"><!----------------------------------------------------------------->
-
+<section><p class="pCurriculumImprimable"><a class="CurriculumImprimable"
+            href="images/CurriculumImprimable.pdf" target="_blank">
+            <i class="fa fa-download" aria-hidden="true">Version Imprimable</i>
+    </a></p></section>
 
                                 <main class="blockright">
 
